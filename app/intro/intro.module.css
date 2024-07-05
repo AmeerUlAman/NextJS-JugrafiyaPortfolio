@@ -1,0 +1,60 @@
+.frex{
+display: flex;
+
+}
+.introtext{
+width: 50%;
+padding-left:3rem; 
+
+
+}
+.introtext p{
+    margin-top: 2rem;
+font-size: x-large;
+
+
+}
+.introtext ul{
+    margin-top: 2rem;
+    font-size: x-large;
+    
+}
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .introtext img {
+    max-width: 100%;
+    height: auto;
+    animation: upDown 2s ease-in-out infinite;
+    position: relative;
+  }
+  
+  .but{
+margin: 30px 10px 0px 0px;
+padding: 9px;
+background-color: rgb(237, 247, 47);
+border-radius: 17px;
+padding: 8px 22px 8px 22px;
+font-size:larger ;
+font-weight: bolder;
+color: blue;
+border: none;
+cursor: pointer;
+  }
+.but :hover{
+background-color: inherit;
+color: white;
+}
+
+  .dif{
+margin-top: 20px;
+
+  }

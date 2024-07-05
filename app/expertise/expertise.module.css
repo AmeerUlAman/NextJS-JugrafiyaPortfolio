@@ -1,0 +1,26 @@
+.bg{
+ 
+    margin: 0px;
+}
+  .Text {
+    font-size:50px; 
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(255, 119, 0) 45%, rgb(244, 225, 19) 25%, rgb(220, 255, 25) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .dif{
+margin-top: 70px;
+
+  }
+  /* app/expertise/expertise.module.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  align-items: stretch
+}
+

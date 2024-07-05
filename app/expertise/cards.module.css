@@ -1,0 +1,39 @@
+/* app/expertise/cards.module.css */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: white; /* Ensure a white background */
+  transition: transform 0.2s; /* Add a transition for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  max-height: 150px; /* Ensure the image does not exceed 150px height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #6a1b9a; /* Change title color to match the design */
+
+  background-color: white;
+}
+
+.cardContent {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+  background-color: white;
+}

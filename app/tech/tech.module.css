@@ -1,0 +1,37 @@
+.Text{
+
+    font-size:50px; 
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(255, 119, 0) 45%, rgb(244, 225, 19) 25%, rgb(220, 255, 25) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* app/pages/Expertise.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .sectionTitle {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  
+  .gp{
+margin-top: 35px;
+
+  }

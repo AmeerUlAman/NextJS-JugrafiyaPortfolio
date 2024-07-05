@@ -1,0 +1,29 @@
+.navi {
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+margin-bottom: 30px; ;
+      }
+  
+  .links {
+    list-style-type: none; 
+    display: flex;
+  
+    gap: 1rem;
+    font-weight: 700;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+  }
+  .links :hover{
+background-color: rgb(245, 237, 24);
+border-radius: 30px;
+color: blue;
+  }
+  .dif{
+    margin-top: 20px;
+    
+      }

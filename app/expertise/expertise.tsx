@@ -53,24 +53,30 @@ const Expertise = () => {
   ];
 
   return (
-    <div className={styles.bg}>
+    <>
+      <div className={styles.dif}></div>
+      <div className={styles.blacked}>
+      <div className={styles.bg}>
         <div className={styles.dif}></div>
-        <center><h1 className={styles.Text}>Our Expertise</h1></center>
-      <center><p>We strive to provide our customers with unparalleled service and exceed their expectations with our exceptional solutions</p></center>
-      <div className={styles.container}>
-      {cardsData.map((card, index) => (
-        <Card 
-          key={index}
-          title={card.title}
-          content={card.content}
-          bgColor={card.bgColor}
-          image={card.image}
-        />
-      ))}
-    </div>
-    </div>
-
-)
-}
+        <center><h1>Our Expertise </h1></center>
+        <center><p>We strive to provide our customers with unparalleled service and exceed their expectations with our exceptional solutions</p></center>
+        <div className={styles.cardsContainer} >
+          <div className={styles.container}>
+            {cardsData.map((card, index) => (
+              <Card 
+                key={index}
+                title={card.title}
+                content={card.content}
+                bgColor={card.bgColor}
+                image={card.image}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+      </div>
+    </>
+  );
+  }
 
 export default Expertise

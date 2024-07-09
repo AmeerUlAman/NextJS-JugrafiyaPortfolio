@@ -9,19 +9,24 @@ export default function Home() {
     <>
 
     <Nav/>
-    <hr className='fade-hr'/>
+     
     <div className='centred'>    <main>
       <Intro/>
-      <hr className='fade-hr'/>
+     </main>
+  
+       </div>
+          <main>
       <Expertise/>
       <hr className='fade-hr'/>
       <Tech/>
       <hr className='fade-hr'/>
        </main>
 
-       </div>
        <main>
-<div  className='bg'>  </div>
+<div  className='bg'> 
+  
+  
+   </div>
 
 </main>
 

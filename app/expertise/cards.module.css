@@ -3,7 +3,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  margin: 20px;
+  margin:12px;
   width: 20%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -26,7 +26,7 @@
 .cardTitle {
   margin: 0 0 10px;
   font-size: 20px;
-  color: #6a1b9a; /* Change title color to match the design */
+  color: #000000; /* Change title color to match the design */
 
   background-color: white;
 }

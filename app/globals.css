@@ -3,12 +3,12 @@
     height: 2px;
     background: linear-gradient(to right, transparent, rgb(244, 240, 18), transparent);
   }
-
+/* 
 *{
     background-color: rgb(82, 34, 128);
     color: white;
     
-}
+} */
  .centred{
 width: 85% ;
 margin:0 auto ;

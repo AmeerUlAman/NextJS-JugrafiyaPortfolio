@@ -40,17 +40,19 @@ font-size: x-large;
   .but{
 margin: 30px 10px 0px 0px;
 padding: 9px;
-background-color: rgb(237, 247, 47);
+background-color: rgb(255, 255, 255);
 border-radius: 17px;
 padding: 8px 22px 8px 22px;
 font-size:larger ;
 font-weight: bolder;
-color: blue;
-border: none;
+color: rgb(0, 0, 0);
+border: solid black;
 cursor: pointer;
   }
-.but :hover{
-background-color: inherit;
+
+ 
+.but:hover{
+background-color:black;
 color: white;
 }
 

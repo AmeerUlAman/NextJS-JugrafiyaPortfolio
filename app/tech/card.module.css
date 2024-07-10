@@ -19,5 +19,5 @@
     color: #ffffff;
   }
   .invertColor {
-    filter:grayscale(100%)  invert(100%) ;
+    /* filter:grayscale(100%)  invert(100%) ; */
   }

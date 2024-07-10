@@ -1,62 +1,106 @@
-.frex{
-display: flex;
-
+.frex {
+  display: flex;
+  position: relative; /* Added to position stars relative to this container */
 }
-.introtext{
-width: 50%;
-padding-left:3rem; 
 
+.introtexta {
+  width: 50%;
+  padding: 10px;
+  padding-left: 3rem;
 
+  font-size:  x-large;
+  z-index: 1; /* Ensures content is above stars */
+  border-radius: 19px;
+  color: white;
+  background-color: rgb(223, 136, 37);
+  margin: 10px;
 }
-.introtext p{
-    margin-top: 2rem;
-font-size: x-large;
 
+.introtext {
+  width: 50%;
+  padding-left: 3rem;
+  z-index: 1; /* Ensures content is above stars */
+  background-color: blue;
+  margin: 10px;
+  border-radius: 19px;
+  position: relative; /* Added to position stars relative to this container */
+}
 
+.introtext p {
+  margin-top: 2rem;
+  font-size: x-large;
 }
-.introtext ul{
-    margin-top: 2rem;
-    font-size: x-large;
-    
+
+.introtext ul {
+  margin-top: 2rem;
+  font-size: x-large;
 }
+
 @keyframes upDown {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
   }
-  .introtext img {
-    max-width: 100%;
-    height: auto;
-    animation: upDown 2s ease-in-out infinite;
-    position: relative;
+  50% {
+    transform: translateY(-10px);
   }
-  
-  .but{
-margin: 30px 10px 0px 0px;
-padding: 9px;
-background-color: rgb(255, 255, 255);
-border-radius: 17px;
-padding: 8px 22px 8px 22px;
-font-size:larger ;
-font-weight: bolder;
-color: rgb(0, 0, 0);
-border: solid black;
-cursor: pointer;
+  100% {
+    transform: translateY(0);
   }
-
- 
-.but:hover{
-background-color:black;
-color: white;
 }
 
-  .dif{
-margin-top: 20px;
+.introtext img {
+  max-width: 100%;
+  height: auto;
+  animation: upDown 2s ease-in-out infinite;
+  position: relative;
+}
 
+.but {
+  margin: 30px 10px 0px 0px;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 17px;
+  padding: 8px 22px 8px 22px;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  border: solid black;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: black;
+  color: white;
+}
+
+.dif {
+  margin-top: 20px;
+}
+
+.stars {
+  width: 4px;
+  height: 4px;
+  background: rgb(216, 196, 11);
+  border-radius: 50%;
+  position: absolute;
+  animation: twinkle 1s infinite alternate;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 1;
   }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.starfield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Places stars behind other content */
+  overflow: hidden; /* Ensure stars don't overflow */
+}

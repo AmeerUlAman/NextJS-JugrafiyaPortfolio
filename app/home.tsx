@@ -16,10 +16,8 @@ export default function Home() {
   
        </div>
           <main>
-      <Expertise/>
-      <hr className='fade-hr'/>
-      <Tech/>
-      <hr className='fade-hr'/>
+      <Expertise/> 
+      <Tech/> 
        </main>
 
        <main>

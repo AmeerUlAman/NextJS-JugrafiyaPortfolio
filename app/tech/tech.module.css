@@ -2,9 +2,11 @@
 
     font-size:50px; 
     font-weight: bold;
-    background: linear-gradient(to bottom, rgb(255, 119, 0) 45%, rgb(244, 225, 19) 25%, rgb(220, 255, 25) 30%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: linear-gradient(to bottom, rgb(255, 119, 0) 45%, rgb(244, 225, 19) 25%, rgb(220, 255, 25) 30%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;*/
+    color: white;
+    padding: 20px;
 }
 /* app/pages/Expertise.module.css */
 .container {
@@ -14,6 +16,24 @@
     padding: 20px;
   }
   
+
+
+  .hrtext {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hrtext::before,
+.hrtext::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10px;
+}
+
+
   .sectionTitle {
     font-size: 20px;
     margin: 20px 0;
@@ -34,4 +54,10 @@
   .gp{
 margin-top: 35px;
 
+  }
+  .blacked{
+    background: linear-gradient(to bottom left, #ff7e5f, #feb47b);
+color: rgb(255, 255, 255);
+border-radius: 9px;
+margin: 38px;
   }

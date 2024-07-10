@@ -56,9 +56,8 @@ const Expertise = () => {
     <>
       <div className={styles.dif}></div>
       <div className={styles.blacked}>
-      <div className={styles.bg}>
-        <div className={styles.dif}></div>
-        <center><h1>Our Expertise </h1></center>
+ 
+         <center><div className={styles.Text}>Our Expertise</div></center>
         <center><p>We strive to provide our customers with unparalleled service and exceed their expectations with our exceptional solutions</p></center>
         <div className={styles.cardsContainer} >
           <div className={styles.container}>
@@ -74,7 +73,7 @@ const Expertise = () => {
           </div>
         </div>
       </div>
-      </div>
+    
     </>
   );
   }

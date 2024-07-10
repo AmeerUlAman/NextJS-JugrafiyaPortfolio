@@ -7,22 +7,23 @@ import Suite from './suite';
 import Automa from './automa';  
 
 const Tech = () => {
-  return (
+  return (<div className={styles.blacked}>
     <div>
     <center><h1 className={styles.Text}>Technologies We love</h1></center>  
-    <h3>OpenSource GIS solutions</h3>
-    <hr />
+    <div className={styles.hrtext}>OpenSource GIS solutions</div>
+    
   <Gissol/>
-  <h3>Web & Mobile Application Developement</h3>
-  <hr />
+  <div className={styles.hrtext}>Web & Mobile Application Developement</div>
+ 
 <Mobdev/>
-<h3>ArcGIS Suite</h3>
-  <hr />
+<div className={styles.hrtext}>ArcGIS Suite</div>
+ 
 <Suite/>
-<h3>Automation</h3>
-  <hr />
+<div className={styles.hrtext}>Automation</div>
+ 
 <Automa/>
 <div className={styles.gp}></div>
+    </div>
     </div>
   )
 }

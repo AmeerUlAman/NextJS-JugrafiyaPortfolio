@@ -15,7 +15,9 @@
   
   .cardTitle {
     font-size: 20px;
-    font-weight: bold;
-    color: #d1f712;
+     
+    color: #ffffff;
   }
-  
+  .invertColor {
+    filter:grayscale(100%)  invert(100%) ;
+  }

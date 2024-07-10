@@ -5,7 +5,7 @@
 .Text {
   font-size: 50px;
   font-weight: bold;
-  
+  padding: 27px;
 }
 
 .dif {
@@ -23,7 +23,8 @@
 }
  
 .blacked{
-background-color: black;
+background:linear-gradient(to bottom right,#1b36ad, #feb47b);
 color: white;
 border-radius: 9px;
+margin: 19px;
 }

@@ -7,7 +7,7 @@
   width: 20%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background-color: white; /* Ensure a white background */
+  background-color: rgb(221, 138, 138); /* Ensure a white background */
   transition: transform 0.2s; /* Add a transition for hover effect */
 }
 

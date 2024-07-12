@@ -22,7 +22,6 @@ const Tech = () => {
 <div className={styles.hrtext}>Automation</div>
  
 <Automa/>
-<div className={styles.gp}></div>
     </div>
     </div>
   )

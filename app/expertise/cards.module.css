@@ -1,28 +1,27 @@
-/* app/expertise/cards.module.css */
- .card {
-/*  border: 1px solid #ddd; */
+ 
+ .card { 
   border-radius: 8px;
   padding: 20px;
   margin:12px;
   width: 20%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background:linear-gradient(to bottom right,#1b36ad,#1b36ad,#7b81fe ) ; /* rgb(80, 110, 220)Ensure a white background */
-  transition: transform 0.2s; /* Add a transition for hover effect */
+  background:linear-gradient(to bottom right,#1b36ad,#1b36ad,#7b81fe ) ;  
+  transition: transform 0.2s;
 color: white;
 cursor: pointer;
 }
 
 .card:hover {
-  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  transform: scale(1.05);  
 }
 
 .cardImage {
   width: 100%;
   height: auto;
-  max-height: 150px; /* Ensure the image does not exceed 150px height */
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
-  margin-bottom: 20px;
+  max-height: 150px; 
+  object-fit: cover;  
+   margin-bottom: 20px;
 }
 
 .cardTitle {

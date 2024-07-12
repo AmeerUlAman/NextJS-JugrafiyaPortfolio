@@ -8,7 +8,8 @@ const Nav = () => {
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet" />
   <div className={styles.dif}></div>
     <nav className={styles.navi}>
-      <h1 className={styles.logo}>JUGRAFIYA</h1>
+      {/* <h1 className={styles.logo}>JUGRAFIYA</h1> */}
+      <img src="jlogo.png" alt="LOGO" className={styles.lim}/>
       <ul className={styles.links}>
         <li>
           <Link href="/">Home</Link>

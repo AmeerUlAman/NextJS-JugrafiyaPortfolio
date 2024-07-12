@@ -4,6 +4,7 @@ import Nav from './nav/nav';
 import Intro from './intro/intro';
 import Expertise from './expertise/expertise';
 import Tech from './tech/tech';
+import Stats from './stats/stats';
 export default function Home() {
   return (
     <>
@@ -17,7 +18,8 @@ export default function Home() {
        </div>
           <main>
       <Expertise/> 
-      <Tech/> 
+      <Tech/>
+      <Stats/> 
        </main>
 
        <main>

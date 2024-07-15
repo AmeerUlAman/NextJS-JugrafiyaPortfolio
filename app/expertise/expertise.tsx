@@ -65,8 +65,7 @@ const Expertise = () => {
               <Card 
                 key={index}
                 title={card.title}
-                content={card.content}
-                bgColor={card.bgColor}
+                content={card.content} 
                 image={card.image}
               />
             ))}

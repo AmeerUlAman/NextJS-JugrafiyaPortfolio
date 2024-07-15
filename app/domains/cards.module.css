@@ -1,0 +1,31 @@
+.cardz{
+    width: 35%;
+    border-radius: 8px;
+    padding: 20px;
+    margin:7px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+ .cardz img{
+width:100%;
+object-fit: cover;  
+max-height: 300px; 
+
+}
+.cardz:hover{
+    transform: scale(1.05);   
+}
+
+
+.hea{
+text-align: center;
+font-weight: bolder;
+font-size: x-large;
+}
+
+
+.de{
+
+font-size: 17px;
+}

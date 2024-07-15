@@ -11,19 +11,26 @@ const cardData = [{heading:"Project Completed",numbs:"400+"},
                 ];
 
   return (
+ 
+    
     <div className={styles.blued}>
+
+<h1 className={styles.ce}>The Stats</h1>
+      <div className={styles.frex}>
       {cardData.map((cards,index)=>(
        <Cards
        heading={cards.heading}
        numbs={cards.numbs}
        />
+     
       )
 
 
       )}
-
+</div>
 
     </div>
+ 
   )
 }
 

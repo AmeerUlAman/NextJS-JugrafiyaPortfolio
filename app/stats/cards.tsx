@@ -11,7 +11,7 @@ numbs:string;
 const Cards :React.FC<cardProps>= ({heading,numbs}) => {
   return (
     <div>
- <h1>{heading}</h1>
+ <p className={styles.hea}>{heading}</p>
  <p className={styles.cent}>{numbs}</p>
     </div>
   )

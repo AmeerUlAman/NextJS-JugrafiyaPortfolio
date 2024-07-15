@@ -1,0 +1,20 @@
+.sty{
+    background-color: #2a37a7;
+padding-bottom: 60px;
+}
+
+.sty button{
+    border: none;
+    padding: 100px;
+    background-color: #2a37a7;
+    transition: 0.3s;
+}
+.sty button:hover{
+    transform: scale(1.05);
+    background-color: #a4982c;
+}
+.hea{
+color: white;
+font-size: xx-large;
+padding: 10px;
+}

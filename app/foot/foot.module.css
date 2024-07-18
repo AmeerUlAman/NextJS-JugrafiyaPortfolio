@@ -1,0 +1,33 @@
+.m{
+    display: flex;
+ }
+.info{
+    width: 50%;
+ 
+margin-right: 30px; 
+font-size: large;
+color: white;
+font-weight: bold;
+text-wrap: wrap;
+}
+.info img{
+padding: 7px;
+
+}
+.for{
+    width: 50%;
+}
+
+.m1{
+    display: flex;
+
+ margin: 0px;
+}
+.bg{
+    background-color: cornflowerblue;
+
+}
+.cu{
+padding: 14px;
+color: white;
+}

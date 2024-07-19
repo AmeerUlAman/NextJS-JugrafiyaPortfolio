@@ -1,0 +1,66 @@
+.cent{
+margin: 0 auto;
+width: 75%;
+ display: flex;
+ flex-wrap: wrap;
+  background:linear-gradient(to bottom right,#1b36ad, #feb47b);  
+ color: white;
+ 
+ padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+justify-content: center;
+
+}
+.box{
+  
+padding: 13px;
+width: 45%;
+/* width: 35%; */
+font-size: larger;
+font-weight: bolder;
+
+}
+
+ .bor{
+border-radius: 7px;
+width: 100%;
+height:40px; 
+border-color: rgb(255, 255, 255);
+font-size: large;
+ margin:7px ;
+ margin-left: 0;
+ }
+
+ .mg{
+    width: 100%;
+    padding: 34px;
+    font-size: large;
+font-weight: bolder;
+color: white; 
+margin:7px ;
+ 
+}
+.mgbox{
+    width: 100%;
+    border-radius: 6px;
+    height: 270px;
+ padding: 10px;
+ border-color:  rgb(255, 255, 255);
+ font-size: x-large;
+}
+.but {
+ background:linear-gradient(to bottom right, #feb47b,#1b36ad);  
+color: white;
+border-radius: 7px;
+height: 30px;
+width: 60px;
+text-align: center;
+ 
+}
+
+.but1 {
+     width:100%;
+   text-align: center;
+    
+   }

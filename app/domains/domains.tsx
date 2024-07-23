@@ -26,8 +26,15 @@ const Carddata =[
 
 
 
-  return (
+  return (<div className={styles.mar}>
+   <div className={styles.hea}>
+
+<h1>Expertise accross various domains</h1>
+<p>We have experience in empowering businesses with innovative solutions in diverse domains</p>
+    </div>
 <div className={styles.container}>
+
+   
    {Carddata.map((card,index)=>(   
 <Cards 
 key = {index}
@@ -38,7 +45,7 @@ det = {card.det}
    ))}
 
 </div>
-  )
+</div> )
 }
 
 export default Domains

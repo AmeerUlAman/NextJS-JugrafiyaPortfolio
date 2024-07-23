@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <Nav/>
-<center><h1>Contact Us</h1></center>
+<center><h1 className={styles.cus}>Contact Us</h1></center>
 <div >
 <form action="" className={styles.cent}>
 <div  className={styles.box}>
@@ -31,7 +31,7 @@ const Contact = () => {
 <textarea id="message" name="message" rows="4" cols="50" placeholder='Enter your Message here.....' className={styles.mgbox}/>
 </div>
 <div className={styles.but1}>
-  <button type="submit"  className={styles.but}> Submit</button>
+  <button type="submit" className={styles.but}> Submit</button>
 </div>
 </form>
 </div>

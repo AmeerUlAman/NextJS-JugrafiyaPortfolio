@@ -1,7 +1,28 @@
+.mar{
+    margin: 0 auto;
+    margin-top:9px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 9px;
+    width: 93%;
+    background: linear-gradient(to top left,green ,black
+    );
+    border-radius: 14px;
+}
 .container{
 display : flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: flex-start;
 align-items: stretch; 
+width: 100%;
+padding: 20px;
+}
+.hea{
+    width: 100%;
+    text-align: center;
+ color: white;
+}
+.hea h1{
+    font-size: 57px;
+    padding: 20px;
 }

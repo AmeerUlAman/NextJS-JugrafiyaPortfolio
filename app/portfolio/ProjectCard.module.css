@@ -4,11 +4,11 @@
     flex-direction: row; 
     border-radius: 8px;
     overflow: hidden;
-    margin: 32px auto;
-    border: 1px solid rgb(183, 183, 183);
+    margin: 32px auto; 
     width: 70%;
     color: white;
     background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   }
   

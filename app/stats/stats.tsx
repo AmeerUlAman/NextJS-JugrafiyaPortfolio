@@ -4,10 +4,10 @@ import Cards from './cards';
 
 
 const Stats = () => {
-const cardData = [{heading:"Project Completed",numbs:"400+"},
-                  {heading:"5 Star Ratings",numbs:"300+"},
-                  {heading:"No of clients",numbs:"350+"},
-                  {heading:"No of Countries",numbs:"25+"}
+const cardData = [{im:'./project.png',heading:"Project Completed",numbs:"400+"},
+                  {im:'./star.png',heading:"5 Star Ratings",numbs:"300+"},
+                  {im:'./client.png',heading:"No of clients",numbs:"350+"},
+                  {im:'./global.png',heading:"No of Countries",numbs:"25+"}
                 ];
 
   return (
@@ -18,7 +18,8 @@ const cardData = [{heading:"Project Completed",numbs:"400+"},
 <h1 className={styles.ce}>The Stats</h1>
       <div className={styles.frex}>
       {cardData.map((cards,index)=>(
-       <Cards
+       <Cards 
+       im={cards.im}
        heading={cards.heading}
        numbs={cards.numbs}
        />

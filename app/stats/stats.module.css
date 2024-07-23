@@ -1,18 +1,21 @@
 .blued{
-background-color: rgb(0, 0, 0);    
-border-radius: 9px;
+background:linear-gradient(to bottom left, black,red);    
+ 
 color: white;
 }
 .frex{
     display: flex;
 
     align-items: center;
+
     justify-content: space-around;
-    margin: 0px;
+    padding-bottom: 20px;
+
 }
 .ce{
 color: white;
-font-size: xx-large;
+
+font-size: 47px;
 text-align: center; 
-padding-top: 7px; 
+padding: 27px; 
 }

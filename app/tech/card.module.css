@@ -6,6 +6,10 @@
     margin: 20px;
     text-align: center;
   }
+  .card:hover img{
+scale:1.09;
+
+  }
   
   .cardImage {
     width: 85px;

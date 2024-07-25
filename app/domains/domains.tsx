@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './domains.module.css';
 import Cards from './cards';
 
+
+
 const Domains = () => {
 const Carddata =[
  {image:"/d1.jpg",
@@ -22,6 +24,8 @@ const Carddata =[
 {image:"/d6.jpg",
     head:"Agriculture",
     det:"Optimize crop management, yield and soil analysis, land use planning, and resource management."}
+
+    
 ];
 
 
@@ -32,6 +36,7 @@ const Carddata =[
 <h1>Expertise accross various domains</h1>
 <p>We have experience in empowering businesses with innovative solutions in diverse domains</p>
     </div>
+
 <div className={styles.container}>
 
    
@@ -47,5 +52,7 @@ det = {card.det}
 </div>
 </div> )
 }
+
+
 
 export default Domains

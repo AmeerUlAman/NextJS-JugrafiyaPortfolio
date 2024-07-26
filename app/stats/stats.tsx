@@ -15,7 +15,7 @@ const cardData = [{im:'./project.png',heading:"Project Completed",numbs:"400+"},
     
     <div className={styles.blued}>
 
-<h1 className={styles.ce}>The Stats</h1>
+{/* <h1 className={styles.ce}>The Stats</h1> */}
       <div className={styles.frex}>
       {cardData.map((cards,index)=>(
        <Cards 

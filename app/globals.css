@@ -14,7 +14,9 @@ margin:0 auto ;
  }
 body{
   /* background: linear-gradient(to bottom left,#252525 ,blue); */
-  background:linear-gradient(to bottom left,#252525 ,rgb(255, 255, 255));
+  /* background:linear-gradient(to bottom left,#252525 ,rgb(255, 255, 255)); */
+  background-color: aliceblue;
 }
 
   
+main{  overflow-x: hidden;}

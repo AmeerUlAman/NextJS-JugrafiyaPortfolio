@@ -1,12 +1,12 @@
 .frex {
   display: flex;
   position: relative; /* Added to position stars relative to this container */
-
+overflow: visible;
 }
 
 .introtexta {
   width: 50%;
-  padding: 60px 30px 45px 30px;
+  padding: 20px 30px 25px 30px;
    
 
   font-size:  x-large;
@@ -73,7 +73,7 @@ margin: 20px 0px 15px 0px;
 }
 
 .dif {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .stars {

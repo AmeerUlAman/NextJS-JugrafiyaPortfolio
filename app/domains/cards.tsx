@@ -5,11 +5,12 @@ interface cardsD{
 image: string;
 head: string;
 det: string;
+reverse:boolean;
 }
 
-const Cards:React.FC<cardsD> = ({image,head,det}) => {
+const Cards:React.FC<cardsD> = ({image,head,det,reverse}) => {
   return (
-    <div className={styles.cardz}>
+    <div className={`${styles.cardz} ${reverse ? styles.reverse : ''}`}>
       <img src={image}  alt="N/A" />
       <p className={styles.hea}>{head}</p>
       <p className={styles.de}>{det}</p>

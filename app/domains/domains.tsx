@@ -46,6 +46,7 @@ key = {index}
 image={card.image}
 head ={card.head}
 det = {card.det}
+reverse={index % 2 === 1}
 /> 
    ))}
 

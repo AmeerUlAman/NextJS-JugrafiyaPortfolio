@@ -1,4 +1,5 @@
-// app/expertise/expertise.tsx
+ "use client";
+
 import React from 'react';
 import Card from './cards';
 import styles from './expertise.module.css';

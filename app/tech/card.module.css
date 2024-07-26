@@ -20,8 +20,9 @@ scale:1.19;
   
   .cardTitle {
     font-size: 20px;
-     
+     font-weight: bold;
     color: #ffffff;
+    cursor: pointer;
   }
   .invertColor {
     /* filter:grayscale(100%)  invert(100%) ; */

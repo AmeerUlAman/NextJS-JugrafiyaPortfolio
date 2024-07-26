@@ -7,6 +7,7 @@
     cursor: pointer;
     transition: transform 0.2s;
     background-color: white;
+    rotate: 2deg;
 }
  .cardz img{
 width:100%;
@@ -30,3 +31,9 @@ font-size: x-large;
 
 font-size: 17px;
 }
+
+.reverse {
+  rotate: -3deg;
+  
+  }
+  

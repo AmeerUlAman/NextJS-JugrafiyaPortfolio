@@ -5,10 +5,11 @@
     align-items: center;
     margin: 20px;
     text-align: center;
+    
   }
   .card:hover img{
-scale:1.09;
-
+scale:1.19;
+ 
   }
   
   .cardImage {

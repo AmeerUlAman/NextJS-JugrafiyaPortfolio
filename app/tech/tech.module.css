@@ -56,9 +56,21 @@ margin-top: 35px;
 
   }
   .blacked{
-    background:linear-gradient(to bottom right,#1b36ad,#1b36ad, #feb47b);
-color: rgb(255, 255, 255);
+    /* background:linear-gradient(to bottom right,#1b36ad,#1b36ad, #feb47b); */
+    background: linear-gradient(to bottom right, #1b36ad, #feb47b);
+    color: rgb(255, 255, 255);
+    width: 97%;
 border-radius: 9px;
-margin: 38px;
- margin-bottom: 5px;
+margin: 38px auto;
+ 
   }
+  .whole {
+    position: relative;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out; /* Adjust duration as needed */
+  }
+  
+  .whole.scrolled {
+    transform: translateX(0);
+  }
+  

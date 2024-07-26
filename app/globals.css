@@ -4,16 +4,17 @@
     background: linear-gradient(to right, transparent, rgb(244, 240, 18), transparent);
   }
 
-*{
+body{
   margin: 0px;
-  
+  overflow-x: hidden;
 }  
  .centred{
 width: 85% ;
 margin:0 auto ;
  }
 body{
-  background: linear-gradient(to bottom left,rgb(0, 0, 0) ,blue);
+  /* background: linear-gradient(to bottom left,#252525 ,blue); */
+  background:linear-gradient(to bottom left,#252525 ,rgb(255, 255, 255));
 }
 
   

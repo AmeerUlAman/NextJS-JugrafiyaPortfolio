@@ -2,9 +2,9 @@ import styles from './tech.module.css';
 import React from 'react';
 import Card from './card';
 const expertiseData = [
-    { title: 'FME', image: 'ge1.png',invert: true },
-    { title: 'Python', image: 'ge2.png' ,invert: true},
-    { title: 'Selenium', image: 'ge3.png', invert: true }
+    { title: 'FME', image: '/ge1.png',invert: true },
+    { title: 'Python', image: '/ge2.png' ,invert: true},
+    { title: 'Selenium', image: '/ge3.png', invert: true }
 ];
 
 const Automa = () => {

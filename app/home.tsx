@@ -21,8 +21,10 @@ export default function Home() {
   
        </div>
           <main>
-      <Expertise/> 
-      <Tech/>
+                <Expertise/>  
+          <Tech/>
+   
+   
       <Stats/>  
       <Domains/> 
       <Testim/>

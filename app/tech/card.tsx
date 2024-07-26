@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './card.module.css';
+import Image from 'next/image';
 
 interface CardProps {
   title: string;
@@ -10,9 +11,12 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ title, image, invert }) => {
   return (
     <div className={styles.card}>
-      <img
+      <Image
         src={image}
         alt={title}
+        width={500} // Provide a suitable width
+        height={300}
+        quality={100} 
         className={`${styles.cardImage} ${invert ? styles.invertColor : ''}`}
       />
       <p className={styles.cardTitle}>{title}</p>

@@ -7,10 +7,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   /* background:linear-gradient(to bottom right,#1b36ad,#1b36ad) ;   */
-  background-color: rgb(175, 88, 26);
+  background-color: rgba(26, 63, 175, 0.214);
   transition: transform 0.2s;
 color: white;
 cursor: pointer;
+border: 2px solid white;
 }
 
 .card:hover {

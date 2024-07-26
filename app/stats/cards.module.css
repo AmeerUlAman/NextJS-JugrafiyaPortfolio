@@ -1,11 +1,11 @@
 .cent{
     text-align: center;
     font-size: 40px; ;
-    border-radius: 100%;
-    background-color: yellow;
-    padding: 0px 0px 0px 0px;
+    /* border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 0px; */
     margin: 20px 0px 20px 0px;
-    color: brown;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 .hea{

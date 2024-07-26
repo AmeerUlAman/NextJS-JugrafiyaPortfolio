@@ -6,7 +6,8 @@
   width: 20%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background:linear-gradient(to bottom right,#1b36ad,#1b36ad) ;  
+  /* background:linear-gradient(to bottom right,#1b36ad,#1b36ad) ;   */
+  background-color: rgb(175, 88, 26);
   transition: transform 0.2s;
 color: white;
 cursor: pointer;

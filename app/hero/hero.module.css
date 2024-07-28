@@ -62,20 +62,20 @@
 
 .butsty{
 margin: 10px; 
-color: rgb(67, 24, 207);
-background-color: rgb(251, 235, 60);
+color: rgb(255, 255, 255);
+background:linear-gradient(to bottom, rgb(26, 26, 109),black) ;
 padding: 13px;
 font-size: larger;
 border-radius: 21px;
 border: none;
 font-weight: bold;
+box-shadow: 0 4px 12px rgba(255, 255, 255, 0.589);  
 }
 
 .butsty:hover{
-  background: rgb(255, 255, 255); /* Slightly more opaque on hover */
+  background: rgb(255, 255, 255); 
   color: blue;
-  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.589); /* Slightly stronger shadow on hover */
-
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.589);  
 }
 
 .fadehr {

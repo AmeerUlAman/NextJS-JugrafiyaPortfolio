@@ -17,6 +17,9 @@ body{
   /* background:linear-gradient(to bottom left,#252525 ,rgb(255, 255, 255)); */
   background-color: aliceblue;
 }
-
+.back{ 
+  /* background: linear-gradient(to bottom  ,rgb(1, 1, 60),rgb(1, 1, 60),blue ,rgb(0, 102, 255),red ); */
+  margin-bottom: 0px;
+}
   
 main{  overflow-x: hidden;}

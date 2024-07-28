@@ -8,6 +8,9 @@ import Stats from './stats/stats';
 import Domains from './domains/domains';
 import Testim from './testimonial/testim'; 
 import Foot from './foot/foot';
+import Hero from './hero/hero';
+
+
 
 export default function Home() {
   return (
@@ -16,16 +19,23 @@ export default function Home() {
     <Nav/>
      
     <div className='centred'>    <main>
-      <Intro/>
+      
      </main>
   
        </div>
           <main>
-                <Expertise/>  
-          <Tech/>
+            <div className='back'>
+<Hero/>
+                
+                
+                    
+                   <Expertise/> 
+                 <Tech/><Stats/> 
+            </div>
+  
    
    
-      <Stats/>  
+    
       <Domains/> 
       <Testim/>
       <Foot/>

@@ -1,32 +1,9 @@
-"use client";
-
-import React, { useEffect, useState } from 'react';
+ 
 import Card from './cards';
 import styles from './expertise.module.css';
 
 const Expertise = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const whole = document.querySelector(`.${styles.whole}`);
-      const wholePosition = whole.getBoundingClientRect().top;
-      const screenPosition = window.innerHeight;
-
-      if (wholePosition < screenPosition) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+  
   const cardsData = [
     {
       title: 'Web GIS Development',
@@ -71,8 +48,7 @@ const Expertise = () => {
   ];
 
   return (
-    <div className={`${styles.whole} ${scrolled ? styles.scrolled : ''}`}>
-      <div className={styles.dif}></div>
+ 
       <div className={styles.blacked}>
         <center><div className={styles.Text}>Our Expertise</div></center>
         <center><p>We strive to provide our customers with unparalleled service and exceed their expectations with our exceptional solutions</p></center>
@@ -89,7 +65,7 @@ const Expertise = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 

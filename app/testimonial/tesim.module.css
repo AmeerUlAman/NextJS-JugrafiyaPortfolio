@@ -1,13 +1,14 @@
 .sty{
-    background-color: #2a37a7;
+    background: linear-gradient(to bottom  ,black, #2a37a7 );
+ 
 padding-bottom: 60px;
-margin-bottom: 20px;
+
 }
 
 .sty button{
     border: none;
     padding: 100px;
-    background-color: #2a37a7;
+    background-color: #ffffff00;
     transition: 0.3s;
 }
 .sty button:hover{

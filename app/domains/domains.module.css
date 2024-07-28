@@ -1,12 +1,12 @@
 .mar{
     margin: 0 auto;
-    margin-top:9px ;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 9px;
-    width: 93%;
-    background: linear-gradient(to top left,green ,black
-    );
-    border-radius: 14px;
+  
+ 
+    width: 100%;
+    background: linear-gradient(to bottom  ,black,rgb(6, 79, 6),black );
+    position: relative;
+    overflow: hidden;
+   
 }
 .container{
 display : flex;

@@ -1,9 +1,9 @@
 .blued{
-/* background:linear-gradient(to bottom right, black,black ,rgb(13, 0, 255),rgb(43, 51, 204));     */
- background-color: black;
+    background: linear-gradient(to bottom, #071037,black); 
 color: white;
-margin: 30px 0px 30px 0px;
+margin: 0px ;
 padding: 20px 0px 20px 0px;
+
 }
 .frex{
     display: flex;
@@ -15,9 +15,9 @@ padding: 20px 0px 20px 0px;
 
 }
 .ce{
-color: white;
+color: white; 
 
-font-size: 67px;
+font-size: 67px; 
 text-align: center; 
 padding: 37px; 
 }

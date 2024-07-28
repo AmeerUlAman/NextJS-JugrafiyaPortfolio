@@ -27,3 +27,13 @@ scale:1.19;
   .invertColor {
     /* filter:grayscale(100%)  invert(100%) ; */
   }
+  .whole {
+    position: relative;
+    transform: translateX(100%);
+    transition: transform 1s ease-in-out; /* Adjust duration as needed */
+  }
+  
+  .whole.scrolled {
+    transform: translateX(0);
+  }
+  

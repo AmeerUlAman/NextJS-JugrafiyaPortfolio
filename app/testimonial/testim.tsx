@@ -44,7 +44,7 @@ const Testim: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 9000); // Change interval (in milliseconds) as needed
+    }, 5000); // Change interval (in milliseconds) as needed
 
     return () => clearInterval(interval); // Clean up the interval on component unmount
   }, []); // Empty dependency array ensures this effect runs only once on component mount

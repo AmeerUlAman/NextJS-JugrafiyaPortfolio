@@ -1,13 +1,13 @@
 .Text{
 
-    font-size:50px; 
+    font-size:90px; 
     font-weight: bold;
     /* background: linear-gradient(to bottom, rgb(255, 119, 0) 45%, rgb(244, 225, 19) 25%, rgb(220, 255, 25) 30%);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;*/
     color: white;
-    padding: 20px;
-}
+    padding: 37px;
+    margin: 0;}
 /* app/pages/Expertise.module.css */
 .container {
     display: flex;
@@ -37,7 +37,7 @@
 
   .sectionTitle {
     font-size: 20px;
-    margin: 20px 0;
+    margin: 0px 0;
     text-align: left;
     width: 100%;
     max-width: 1200px;
@@ -50,28 +50,16 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
-  }
-  
-  .gp{
-margin-top: 35px;
+  } 
 
-  }
   .blacked{
     /* background:linear-gradient(to bottom right,#1b36ad,#1b36ad, #feb47b); */
-    background: linear-gradient(to bottom right, #1b36ad, #feb47b);
+    /* background: linear-gradient(to bottom right, #1b36ad, #feb47b); */
+    background: linear-gradient(to bottom, #feb47b , #071037); 
     color: rgb(255, 255, 255);
-    width: 97%;
-border-radius: 9px;
-margin: 38px auto;
+    width: 100%;
+ 
+margin:0px auto;
  
   }
-  .whole {
-    position: relative;
-    transform: translateX(20%);
-    transition: transform 0.5s ease-in-out; /* Adjust duration as needed */
-  }
-  
-  .whole.scrolled {
-    transform: translateX(0);
-  }
-  
+ 
